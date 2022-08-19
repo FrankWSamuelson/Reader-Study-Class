@@ -24,6 +24,9 @@ router.post('/display-results', (req, res) => {
     py.stdout.on('data', function (data) {
         dataToSend = data.toString();
     });
+    py.stderr.on('data', (data) => {
+        console.log(`stderr: ${data}`);
+    });
 
     // in close event we are sure that stream from child process is closed
     py.on('close', (code) => {
