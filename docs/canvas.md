@@ -33,7 +33,7 @@ Now add the following to the "Consumer Key" and "Shared Secret" fields.
 Consumer Key: `<consumer key>`
 Consumer Secret: `<consumer secret>`
 
-Note: the field values are taken from the CONSUMER_KEY and CONSUMER_SECRET environment variables in the (Heroku) web app. For more information on setting environment variables in your web app, check [here](./heroku.md#environment-variables).
+Note: the field values are taken from the CONSUMER_KEY and CONSUMER_SECRET environment variables in the (Heroku) web app (See Config Vars on Heroku). For more information on setting environment variables in your web app, check [here](./heroku.md#environment-variables).
 
 ### Course Details
 The course details are the same for both versions of the course unless otherwise specified.
